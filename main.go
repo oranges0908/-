@@ -44,9 +44,9 @@ func main() {
 				fmt.Println("end!")
 				break
 			} else if end == nil {
-				oldstr := encoder.ConvertString("瑞丽超级自动排料系统")
-				//newstr := encoder.ConvertString("                    ")
-				newstr := encoder.ConvertString("深圳新群力-排版系统 ")
+				oldstr := encoder.ConvertString("超级自动排料系统")
+				newstr := encoder.ConvertString("                    ")
+				//newstr := encoder.ConvertString(" ")
 
 				var newdata []byte
 				if bytes.Contains(data, []byte(oldstr)) {
